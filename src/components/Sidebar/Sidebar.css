@@ -1,0 +1,46 @@
+.sidebar {
+  flex: 1;
+  height: 100vh;
+  border-right: 2px solid brown;
+}
+.sidebarWrapper {
+  padding: 20px;
+  height: 80%;
+}
+.sidebarBox {
+  box-shadow: 0px 10px 21px -5px rgba(5, 7, 5, 0.75);
+  -webkit-box-shadow: 0px 10px 21px -5px rgba(39, 44, 38, 0.75);
+  -moz-box-shadow: 0px 10px 21px -5px rgba(32, 118, 19, 0.75);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 80%;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border: 0.5px solid brown;
+}
+.sidebarCenter {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+
+  height: 50%;
+}
+.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.sidebarBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}

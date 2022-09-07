@@ -1,0 +1,10 @@
+.home {
+  display: flex;
+  width: 100vw;
+}
+.homeContainer {
+  flex: 5;
+}
+.cardwrapper {
+  padding: 40px;
+}
