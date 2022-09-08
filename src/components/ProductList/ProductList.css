@@ -37,3 +37,12 @@
   font-weight: 500;
   cursor: pointer;
 }
+@media only screen and (max-width: 480px) {
+  .plistright {
+    flex-direction: column;
+  }
+  .plistwrapper {
+    display: flex;
+    align-items: center;
+  }
+}
