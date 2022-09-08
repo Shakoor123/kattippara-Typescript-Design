@@ -12,7 +12,6 @@ const Sidebar = () => {
             <img src={logo} alt="" className="logo" />
           </div>
           <div className="sidebarCenter">
-            <img src={profile} alt="" className="profile" />
             <p className="about">Creating Quality Products</p>
             <p className="about">Available kasaragod Only</p>
           </div>
@@ -20,6 +19,7 @@ const Sidebar = () => {
             <span>whatsapp</span>
             <span>phone</span>
           </div>
+          <img src={profile} alt="" className="profile" />
         </div>
       </div>
     </div>
