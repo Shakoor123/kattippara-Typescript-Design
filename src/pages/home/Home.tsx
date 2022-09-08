@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../../components/Card/Card";
 import Navbar from "../../components/Navbar/Navbar";
 import Sidebar from "../../components/Sidebar/Sidebar";
-import background from "../../assets/background.jpg";
 import "./Home.css";
 const Home = () => {
   return (

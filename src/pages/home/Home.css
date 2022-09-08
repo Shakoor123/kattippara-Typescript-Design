@@ -1,9 +1,6 @@
 .home {
   display: flex;
   width: 100vw;
-  background-color: #cccccc;
-  background-image: url("https://images.creativemarket.com/0.1.0/ps/3897566/1820/1213/m1/fpnw/wm1/bh12ucz5ogfcofmkt2my2rxtyqorgeisxcs5g5oblggtmklfmpf0umk39ggx81rh-.jpg?1516801944&s=cfc070e9465ff079915836ae5b53b390");
-  background-repeat: no-repeat;
 }
 .homeContainer {
   flex: 5;

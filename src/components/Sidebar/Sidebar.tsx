@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.webp";
-import profile from "../../assets/profile.jpg";
+import profile from "../../assets/profile.jpeg";
 import phone from "../../assets/phone.png";
 import whatsapp from "../../assets/whatsapp.png";
 import "./Sidebar.css";

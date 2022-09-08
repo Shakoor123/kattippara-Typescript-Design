@@ -25,10 +25,43 @@
   flex: 1;
   background-color: rgba(240, 248, 255, 0.696);
   border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
 }
 .productInfo {
   padding: 30px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
+}
+.weightImage {
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.offer {
+  color: red;
+}
+.price {
+  color: blue;
+}
+.anauncement {
+  font-size: 13px;
+  text-align: center;
+  color: green;
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  align-self: center;
+}
+.contact {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: 0.1px solid gray;
+  padding: 5px;
+  border-radius: 50%;
 }
