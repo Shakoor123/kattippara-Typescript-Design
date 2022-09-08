@@ -3,13 +3,14 @@
   -webkit-box-shadow: 0px 10px 21px -5px rgba(39, 44, 38, 0.75);
   -moz-box-shadow: 0px 10px 21px -5px rgba(32, 118, 19, 0.75);
   width: 230px;
-  height: 280px;
+  height: 300px;
   padding: 15px;
   margin-top: 20px;
   border-radius: 15px;
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.679);
 }
 .cardWrapper {
-  background-color: aliceblue;
   display: flex;
   flex-direction: column;
 }
@@ -39,4 +40,9 @@
 .price {
   font-weight: 700;
   margin-top: 10px;
+}
+.click {
+  width: 25px;
+
+  height: 25px;
 }

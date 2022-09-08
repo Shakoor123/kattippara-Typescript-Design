@@ -1,7 +1,8 @@
 import React from "react";
 import logo from "../../assets/logo.webp";
 import profile from "../../assets/profile.jpg";
-
+import phone from "../../assets/phone.png";
+import whatsapp from "../../assets/whatsapp.png";
 import "./Sidebar.css";
 const Sidebar = () => {
   return (
@@ -16,8 +17,8 @@ const Sidebar = () => {
             <p className="about">Available kasaragod Only</p>
           </div>
           <div className="sidebarBottom">
-            <span>whatsapp</span>
-            <span>phone</span>
+            <img src={whatsapp} alt="" className="icons" />
+            <img src={phone} alt="" className="icons" />
           </div>
           <img src={profile} alt="" className="profile" />
         </div>
