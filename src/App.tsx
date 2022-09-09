@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
+import "./DarkMode.scss";
+
 import AddProduct from "./pages/AddProduct/AddProduct";
 import Home from "./pages/home/Home";
 import LoginPage from "./pages/LoginPage/LoginPage";
@@ -9,19 +11,9 @@ import NoPage from "./pages/NoPage";
 
 function App() {
   const [cuser, setCuser] = useState(false);
+  const [dark, setDark] = useState(true);
   return (
-    <div className="App">
-      {/* <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />}>
-            <Route path="/product" element={<Product />} />
-            <Route path="login" element={<LoginPage />} />
-            <Route path="addproduct" element={<AddProduct />} />
-
-            <Route path="*" element={<NoPage />} />
-          </Route>
-        </Routes>
-      </BrowserRouter> */}
+    <div className={dark ? "darkMode" : "App"}>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -31,6 +23,7 @@ function App() {
             path="/addproduct"
             element={cuser ? <AddProduct /> : <Home />}
           />
+          <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
     </div>

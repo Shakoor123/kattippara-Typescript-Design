@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Card from "../../components/Card/Card";
 import Navbar from "../../components/Navbar/Navbar";
 import Sidebar from "../../components/Sidebar/Sidebar";
@@ -12,18 +13,9 @@ const Home = () => {
           <Navbar />
           <div className="cardwrapper">
             <div className="homecards">
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
-              <Card />
+              <Link to={"/product/123"}>
+                <Card />
+              </Link>
             </div>
           </div>
         </div>
